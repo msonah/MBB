@@ -10,7 +10,7 @@ from numpy.random import RandomState
 from numpy.random import standard_normal
 
 '''BOX-COX变换部分'''
-ts = np.loadtxt(open('C:\myPython\my_others\data\capacity_37_1.csv'), delimiter=",",
+ts = np.loadtxt(open('/capacity_37_1.csv'), delimiter=",",
                 skiprows=0)  # CSV文件转化为数组(数组或者矩阵存储为csv文件:numpy.savetxt('new.csv', ts, delimiter = ',')
 # plt.subplot(211)  # 211代表2*1的矩阵图放第一个
 plt.plot(ts, 'green')
